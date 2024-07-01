@@ -1,0 +1,51 @@
+.carousel-inner {
+    height: 100vh;
+    z-index: -1;
+}
+
+#titre, #titreprincipal {
+    color: white;
+    text-shadow: 1px 1px 6px red;
+}
+
+#titreprincipal {
+    width: 1300px;
+    top: -500px;
+    left: 550px;
+}
+
+#ttc {
+    font-size: 16px;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+footer, .navbar {
+    background: rgb(83, 5, 5);
+}
+
+body, .btn{
+    background: rgb(3, 3, 90);
+}
+
+main img {
+    width: 100%;
+    height: 19vh;
+}
+
+.btn {
+    left: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-inner {
+        height: 25vh;
+    }
+
+    #cards {
+        justify-content: center;
+        align-items: center;
+    }
+}
